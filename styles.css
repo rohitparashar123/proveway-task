@@ -229,7 +229,7 @@ body {
 
 .custom-select {
   width: 100%;
-  padding: 8px 12px;
+  padding: 8px 1px;
   border: 1px solid #d1d5db;
   border-radius: 6px;
   font-size: 13px;
