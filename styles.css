@@ -16,7 +16,7 @@ body {
   max-width: 480px;
   margin: 0 auto;
   background: white;
-  padding: 24px;
+  padding: 50px;
 }
 
 .header {
@@ -39,7 +39,7 @@ body {
   content: "";
   position: absolute;
   top: 50%;
-  width: 130px;
+  width: 95px;
   height: 1px;
   background: #c8c8c8;
 }
@@ -274,7 +274,7 @@ body {
   color: white;
   border: none;
   padding: 14px 16px;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
