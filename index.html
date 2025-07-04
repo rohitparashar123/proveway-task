@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAY! It's BOGO - Interactive Product Selector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>YAY! It's BOGO</h1>
+        </header>
+
+        <main>
+            <article class="product-box" data-product="1" data-price="10.00" role="button" tabindex="0" aria-label="Select 1 Unit package">
+                <div class="product-header">
+                    <div class="product-left">
+                        <div class="radio-button" aria-hidden="true"></div>
+                        <div class="product-info">
+                            <h3>1 Unit <span class="discount-badge">10% Off</span></h3>
+                            <div class="product-subtitle">Standard Price</div>
+                        </div>
+                    </div>
+                    <div class="product-right">
+                        <div class="current-price">$10.00 USD</div>
+                        <div class="original-price">$24.00 USD</div>
+                    </div>
+                </div>
+                <div class="product-options">
+                    <div class="options-row">
+                        <div class="item-number">#1</div>
+                        <div class="option-group">
+                            <label class="option-label" for="size-1-1">Size</label>
+                            <select class="custom-select" id="size-1-1" name="size-1-1">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label" for="colour-1-1">Colour</label>
+                            <select class="custom-select" id="colour-1-1" name="colour-1-1">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-box most-popular active" data-product="2" data-price="18.00" role="button" tabindex="0" aria-label="Select 2 Unit package, most popular">
+                <div class="most-popular-badge">MOST POPULAR</div>
+                <div class="product-header">
+                    <div class="product-left">
+                        <div class="radio-button checked" aria-hidden="true"></div>
+                        <div class="product-info">
+                            <h3>2 Unit <span class="discount-badge">20% Off</span></h3>
+                        </div>
+                    </div>
+                    <div class="product-right">
+                        <div class="current-price">$18.00 USD</div>
+                        <div class="original-price">$24.00 USD</div>
+                    </div>
+                </div>
+                <div class="product-options show">
+                    <div class="options-row">
+                        <div class="item-number">#1</div>
+                        <div class="option-group">
+                            <label class="option-label" for="size-2-1">Size</label>
+                            <select class="custom-select" id="size-2-1" name="size-2-1">
+                                <option value="S" selected>S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label" for="colour-2-1">Colour</label>
+                            <select class="custom-select" id="colour-2-1" name="colour-2-1">
+                                <option value="Black" selected>Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="options-row">
+                        <div class="item-number">#2</div>
+                        <div class="option-group">
+                            <label class="option-label" for="size-2-2">Size</label>
+                            <select class="custom-select" id="size-2-2" name="size-2-2">
+                                <option value="S" selected>S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label" for="colour-2-2">Colour</label>
+                            <select class="custom-select" id="colour-2-2" name="colour-2-2">
+                                <option value="" selected>Colour</option>
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-box" data-product="3" data-price="24.00" role="button" tabindex="0" aria-label="Select 3 Unit package">
+                <div class="product-header">
+                    <div class="product-left">
+                        <div class="radio-button" aria-hidden="true"></div>
+                        <div class="product-info">
+                            <h3>3 Unit <span class="discount-badge">30% Off</span></h3>
+                        </div>
+                    </div>
+                    <div class="product-right">
+                        <div class="current-price">$24.00 USD</div>
+                        <div class="original-price">$24.00 USD</div>
+                    </div>
+                </div>
+                <div class="product-options">
+                    <div class="options-row">
+                        <div class="item-number">#1</div>
+                        <div class="option-group">
+                            <label class="option-label" for="size-3-1">Size</label>
+                            <select class="custom-select" id="size-3-1" name="size-3-1">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label" for="colour-3-1">Colour</label>
+                            <select class="custom-select" id="colour-3-1" name="colour-3-1">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="options-row">
+                        <div class="item-number">#2</div>
+                        <div class="option-group">
+                            <label class="option-label" for="size-3-2">Size</label>
+                            <select class="custom-select" id="size-3-2" name="size-3-2">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label" for="colour-3-2">Colour</label>
+                            <select class="custom-select" id="colour-3-2" name="colour-3-2">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="options-row">
+                        <div class="item-number">#3</div>
+                        <div class="option-group">
+                            <label class="option-label" for="size-3-3">Size</label>
+                            <select class="custom-select" id="size-3-3" name="size-3-3">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="option-group">
+                            <label class="option-label" for="colour-3-3">Colour</label>
+                            <select class="custom-select" id="colour-3-3" name="colour-3-3">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                                <option value="Green">Green</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <div class="delivery-info">
+                <div class="free-delivery">Free Delivery</div>
+                <div class="total-price">Total : $18.00 USD</div>
+            </div>
+            <button class="add-to-cart" type="button">
+                <span class="plus-icon" aria-hidden="true">+</span>
+                Add to Cart
+            </button>
+            <div class="powered-by">@ Powered by Pumper</div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
